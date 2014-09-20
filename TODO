@@ -1,0 +1,12 @@
+* Implement /map and /*
+* Change public/app/video-stream/ to build sources list dynamically
+* Implement GPIO (PWM): https://code.google.com/p/webiopi/wiki/RESTAPI
+* Reverse engineer what /map is supposed to do
+* Catch exceptions and throw right error code
+* Implement PWM interface
+* Invent interfaces:
+    * Still camera
+    * SPI
+    * I2C
+    * 1-Wire
+    * Serial

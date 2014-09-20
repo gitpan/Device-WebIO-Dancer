@@ -1,0 +1,46 @@
+{
+   "abstract" : "REST interface for Device::WebIO using Dancer",
+   "author" : [
+      "Timm Murray <tmurray@wumpus-cave.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.140640",
+   "license" : [
+      "bsd"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Device-WebIO-Dancer",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Dancer" : "1.3126",
+            "Device::WebIO" : "0.002"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "JSON" : "0",
+            "Plack::Test" : "0",
+            "Test::Pod" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://www.wumpus-cave.net",
+      "repository" : {
+         "type" : "git",
+         "web" : "https://github.com/frezik/Device-WebIO-Dancer.git"
+      }
+   },
+   "version" : "0.001"
+}
+
