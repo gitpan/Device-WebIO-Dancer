@@ -22,7 +22,7 @@
       "runtime" : {
          "requires" : {
             "Dancer" : "1.3126",
-            "Device::WebIO" : "0.002"
+            "Device::WebIO" : "0.003"
          }
       },
       "test" : {
@@ -41,6 +41,6 @@
          "web" : "https://github.com/frezik/Device-WebIO-Dancer.git"
       }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }
 

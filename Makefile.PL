@@ -21,14 +21,14 @@ my %WriteMakefileArgs = (
   "NAME" => "Device::WebIO::Dancer",
   "PREREQ_PM" => {
     "Dancer" => "1.3126",
-    "Device::WebIO" => "0.002"
+    "Device::WebIO" => "0.003"
   },
   "TEST_REQUIRES" => {
     "JSON" => 0,
     "Plack::Test" => 0,
     "Test::Pod" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -37,7 +37,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Dancer" => "1.3126",
-  "Device::WebIO" => "0.002",
+  "Device::WebIO" => "0.003",
   "JSON" => 0,
   "Plack::Test" => 0,
   "Test::Pod" => 0
